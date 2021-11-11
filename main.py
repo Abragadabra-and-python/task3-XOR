@@ -13,6 +13,7 @@ def XOR_uncipher(encrypted_str, key):
 		decrypted_str += chr(ord(text) ^ key)
 	return decrypted_str
 
+
 print('Encrypt 1, Decrypt 2')
 choise = str(input('>>>'))
 
